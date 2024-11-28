@@ -5,7 +5,7 @@ import TWITTER from '../../assets/twitter.png';
 import YOUTUBE from '../../assets/youtube.png';
 import LINKEDIN from '../../assets/linkedin.png';
 
-import S from './Footer.module.scss';
+import S from './footer.module.scss';
 
 export default function Footer() {
   return (
