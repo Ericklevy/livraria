@@ -1,0 +1,29 @@
+footer {
+  height: 30vh;
+}
+
+.boxSocial {
+  background-color: #005695;
+  height: 19vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 80px;
+  padding-right: 60px;
+}
+.boxSocial div {
+  width: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.direito {
+  height: 12vh;
+  background-color: #232020;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=footer.module.css.map */
