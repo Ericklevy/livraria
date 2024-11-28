@@ -1,4 +1,4 @@
-import S from './Inicio.module.scss';
+import S from './inicio.module.scss';
 import COMUNITY from '../../assets/community.png';
 import LIVRO from '../../assets/livro.png';
 import MAO from '../../assets/mao.png';
