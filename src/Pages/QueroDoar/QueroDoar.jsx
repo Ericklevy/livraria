@@ -1,4 +1,4 @@
-import S from './QueroDoar.module.scss';
+import S from './queroDoar.module.scss';
 import FORM_LIVRO from '../../assets/form-livro.png';
 
 export default function QueroDoar() {
