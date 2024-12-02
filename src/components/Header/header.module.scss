@@ -58,3 +58,59 @@ header{
 }
 
 
+@media (max-width: 1170px){
+    .boxLogo{
+        h1{
+            font-size: 1.6vw;
+        }
+        img{
+            width: 5vw;
+        }
+    }
+
+    .boxMenu{
+        ul{
+            a{
+                font-size: 1.6vw;
+            }
+        }
+    }
+    .boxInput{
+        width: 20vw;
+        input{
+            width: 16vw;
+            &::placeholder{
+                font-size: 1.3vw;
+            }
+        }
+           
+        }
+        
+        
+}
+
+@media(max-width: 760px){
+
+    header{
+      height: 22vh;
+      display: flex;
+      align-items: center ;
+      
+      flex-direction: column;
+
+    }
+    .boxMenu{
+        justify-content: space-between;
+        margin-top: 80px;
+        width: 95%;
+
+
+    }
+  
+    .boxInput{
+     display: none;
+    }
+  
+  }
+
+

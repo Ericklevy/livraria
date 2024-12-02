@@ -53,4 +53,44 @@ header {
 }
 .boxInput input::placeholder {
   color: white;
+}
+
+@media (max-width: 1170px) {
+  .boxLogo h1 {
+    font-size: 1.6vw;
+  }
+  .boxLogo img {
+    width: 5vw;
+  }
+  .boxMenu ul a {
+    font-size: 1.6vw;
+  }
+  .boxInput {
+    width: 20vw;
+  }
+  .boxInput input {
+    width: 16vw;
+  }
+  .boxInput input::-moz-placeholder {
+    font-size: 1.3vw;
+  }
+  .boxInput input::placeholder {
+    font-size: 1.3vw;
+  }
+}
+@media (max-width: 760px) {
+  header {
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .boxMenu {
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 95%;
+  }
+  .boxInput {
+    display: none;
+  }
 }/*# sourceMappingURL=header.module.css.map */
