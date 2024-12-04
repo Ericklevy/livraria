@@ -94,9 +94,8 @@ header {
     display: none;
   }
 }
-@media (min-width: 201px) and (max-width: 500px) {
+@media (min-width: 380px) and (max-width: 500px) {
   header {
-    border: solid 2px red;
     height: auto;
     display: flex;
     align-items: center;
@@ -104,33 +103,33 @@ header {
     padding: 10px;
   }
   .boxLogo {
-    border: solid 2px yellow;
-    width: 80%;
+    width: 90%;
+    height: 49px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 10px;
   }
   .boxLogo h1 {
     font-size: 22px;
-    border: solid 2px blue;
+    margin-left: 15px;
   }
   .boxLogo img {
-    border: solid 2px green;
-    width: 8vw;
+    margin-left: 35px;
+    width: 40px;
+    height: 40px;
   }
   .boxMenu {
-    border: solid 2px green;
-    width: 95%;
-    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
   }
   .boxMenu ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .boxMenu ul a {
-    font-size: 20px;
+    font-size: 22px;
   }
   .boxMenu .boxInput {
     display: none;
