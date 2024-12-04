@@ -114,3 +114,55 @@ header{
   }
 
 
+@media(min-width:201px) and (max-width: 500px){
+
+    header{
+        border: solid 2px red;
+        height: auto;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .boxLogo{
+
+        border: solid 2px yellow;
+        width: 80%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        padding: 10px;
+        h1{
+            font-size: 22px;
+            border: solid 2px blue;
+        }
+        img{
+            border: solid 2px green;
+            width: 8vw;
+        }
+    }
+    .boxMenu{
+        border: solid 2px green;
+        width: 95%;
+        padding-top: 10px;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a{
+                font-size: 20px;
+            }
+        }
+
+        .boxInput{
+            display: none;
+        }
+    }
+
+    
+  }
+
+
