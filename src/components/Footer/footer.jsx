@@ -14,13 +14,13 @@ export default function Footer() {
             <h3>
                 4002-8922
             </h3>
-                <div>
-                    <a href=""> <img src={FACEBOOK} alt="" /> </a>
-                    <a href=""> <img src={TWITTER} alt="" /> </a>
-                    <a href=""> <img src={YOUTUBE} alt="" /> </a>
-                    <a href=""> <img src={LINKEDIN} alt="" /> </a>
-                    <a href=""> <img src={INSTAGRAM} alt="" /> </a>
-                </div>
+            <div>
+                <a href=""> <img src={FACEBOOK} alt="" /> </a>
+                <a href=""> <img src={TWITTER} alt="" /> </a>
+                <a href=""> <img src={YOUTUBE} alt="" /> </a>
+                <a href=""> <img src={LINKEDIN} alt="" /> </a>
+                <a href=""> <img src={INSTAGRAM} alt="" /> </a>
+            </div>
             
         </section>
         <section className={S.direito}>

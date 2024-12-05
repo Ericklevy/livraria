@@ -35,7 +35,6 @@ header{
 }
 
 .boxInput{
-    border: solid 2px white;
     width: 17vw ;
     margin-right: 20px;
     height: 6vh ;
@@ -90,20 +89,48 @@ header{
         
 }
 
-@media(max-width: 760px){
+
+@media(max-width: 900px){
 
     header{
-      height: 22vh;
-      display: flex;
-      align-items: center ;
-      
-      flex-direction: column;
-
+        height: 18vh;
+        display: flex;
+        align-items: center ;
+        justify-content: space-evenly;
+        
+        flex-direction: column;
+  
     }
+
+    .boxLogo{
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+ 
+        h1{
+            font-size: 2.8vw;
+        }
+        img{
+            width: 6vw;
+        }
+    }
+
+
+
+    
     .boxMenu{
         justify-content: space-between;
         margin-top: 80px;
         width: 95%;
+
+            ul{
+                a{
+                    font-size: 3vw;
+                }
+            }
+            
+        
 
 
     }
@@ -115,7 +142,7 @@ header{
   }
 
 
-@media(min-width:0px) and (max-width: 500px){
+@media(min-width:350px) and (max-width: 500px){
 
     header{
 
@@ -162,9 +189,68 @@ header{
             }
         }
 
-        .boxInput{
-            display: none;
+       
+    }
+
+    .boxInput{
+        display: none;
+    }
+
+    
+}
+
+
+@media(max-width: 330px){
+
+    header{
+
+        height: auto;
+        display: flex;
+        align-items: center ;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .boxLogo{
+
+        width: 100%;
+        height: 49px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+        padding: 10px;
+        h1{
+            margin-left: 10px;
+            font-size: 20px;
+
         }
+        img{
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .boxMenu{
+
+
+        width: 100%;
+
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a{
+                font-size: 18px;
+            }
+        }
+
+       
+    }
+
+    .boxInput{
+        display: none;
     }
 
     

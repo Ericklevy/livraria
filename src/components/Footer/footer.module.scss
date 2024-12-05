@@ -27,3 +27,27 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+
+@media (max-width: 1000px){
+    .boxSocial{
+        div{
+            width: 230px;
+
+        }
+    } 
+}
+
+@media (max-width: 585px){
+    .boxSocial{
+        flex-direction: column;
+        justify-content: space-evenly;
+        div{
+            width: 230px;
+        }
+    }
+    .direito{
+        text-align: center;
+    }
+
+}
