@@ -1,5 +1,4 @@
 .principal {
-  border: solid 2px green;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -10,6 +9,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+}
+.container h2 {
+  text-align: center;
 }
 
 .forms {
@@ -31,7 +33,7 @@
 }
 .forms input {
   border: solid 2px #005695;
-  width: 22vw;
+  width: 80%;
   height: 5vh;
   border-radius: 10px;
   outline: none;
@@ -45,11 +47,42 @@
 }
 
 input:nth-child(6) {
-  width: 10vw;
+  width: 40%;
   height: 6vh;
   padding-left: 0;
   background-color: #005695;
   color: white;
   cursor: pointer;
   font-size: 18px;
+}
+
+@media screen and (max-width: 1070px) {
+  .forms {
+    width: 320px;
+  }
+}
+@media (max-width: 650px) {
+  .container {
+    height: 90vh;
+  }
+  .container h2 {
+    font-size: 20px;
+  }
+  .principal {
+    height: auto;
+  }
+}
+@media (max-width: 450px) {
+  .container h2 {
+    font-size: 17px;
+  }
+  .forms {
+    width: 280px;
+  }
+  .forms div img {
+    width: 10vh;
+  }
+  .forms div h3 {
+    font-size: 4.5vw;
+  }
 }/*# sourceMappingURL=queroDoar.module.css.map */

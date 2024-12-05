@@ -1,7 +1,7 @@
 
 header{
     
-    height: 15vh;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,8 +10,7 @@ header{
 }
 
 .boxLogo{
-   
-    width: 23vw;
+    width: 27vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -35,29 +34,32 @@ header{
 }
 
 .boxInput{
-    width: 17vw ;
+
+    border: solid 2px white;
+    width: 19vw ;
     margin-right: 20px;
     height: 6vh ;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border-radius: 15px;
+
     input {
         outline: none;
         background-color: transparent;
-        border: none;
         color: white;
-        font-size: 15px;
-        padding-left: 6px;
+        border: none;
+        font-size: 12px;
         &::placeholder{
             color: white;
         }
+
     }
 
 }
 
 
-@media (max-width: 1170px){
+@media (max-width: 1150px){
     .boxLogo{
         h1{
             font-size: 1.6vw;
@@ -84,7 +86,7 @@ header{
             }
         }
            
-        }
+    }
         
         
 }
