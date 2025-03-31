@@ -30,6 +30,8 @@ export default function Doados() {
                         <h4>O protagonista</h4>
                         <p>Susanne Andrade</p>
                         <p>Ficção</p>
+
+                        
                     </div>
                 </article>
                 {livros.map((item) => {
