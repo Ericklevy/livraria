@@ -12,29 +12,62 @@
 
 }
 
-.Card{
-
+.Card {
     width: 85vw;
     height: 60vh;
-    article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 15px; /* Aumentei um pouco o gap */
+    overflow-y: auto;
+    padding: 10px; /* Adicionei padding no container principal */
+    
+    article {
         border: solid 2px #005695;
-        width: 170px;
-        height: 32vh;
+        width: 200px;
+        height: 50vh; /* Aumentei um pouco a altura */
         display: flex;
-        justify-content: space-evenly;
+        justify-content: flex-start; /* Alterei para melhor distribuição */
         align-items: center;
         flex-direction: column;
-        border-radius: 10px;
-        gap: 10px;
-        div{
+        border-radius: 13px;
+        padding: 15px;
+        box-sizing: border-box;
+        
+        img {
+            max-width: 60%;
+            max-height: 150px; /* Aumentei um pouco */
+            object-fit: contain;
+            margin-bottom: 15px;
+        }
+        
+        div {
+            text-align: center;
+            width: 100%;
+            overflow: visible; /* Mudei de hidden para visible */
+            text-overflow: clip; /* Mudei de ellipsis para clip */
+            white-space: normal; /* Mudei de nowrap para normal */
             display: flex;
-            justify-content: space-evenly;
-            align-items: center;
             flex-direction: column;
-            gap: 8px;
+            gap: 8px; /* Espaço entre elementos de texto */
+            
+            h4 {
+                font-size: 16px;
+                font-weight: bold;
+                margin: 0;
+                display: -webkit-box;
+                -webkit-line-clamp: 2; /* Limita a 2 linhas */
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            
+            p {
+                margin: 0;
+                font-size: 14px;
+                color: #555;
+            }
         }
     }
-
 }
 
 
